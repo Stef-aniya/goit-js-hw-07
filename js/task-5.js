@@ -9,5 +9,5 @@ const body = document.body
 btn.addEventListener('click', ()=>{
   const randomColor = getRandomHexColor();
   body.style.backgroundColor = randomColor
-  spanBtn.style.textContent = randomColor
+  spanBtn.textContent = randomColor
 })
